@@ -1,4 +1,4 @@
-package com.example.eliaschang8.tabsandnavdrawer;
+package com.example.eliaschang8.tabsandnavdrawer.Presenter;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.eliaschang8.tabsandnavdrawer.Modler.DesActivity;
+import com.example.eliaschang8.tabsandnavdrawer.R;
 
 /**
  * Created by eliaschang8 on 4/26/17.

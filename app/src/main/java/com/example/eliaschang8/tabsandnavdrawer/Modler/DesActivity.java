@@ -1,4 +1,4 @@
-package com.example.eliaschang8.tabsandnavdrawer;
+package com.example.eliaschang8.tabsandnavdrawer.Modler;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.TextView;
+
+import com.example.eliaschang8.tabsandnavdrawer.R;
 
 /**
  * Created by eliaschang8 on 4/26/17.
@@ -18,7 +20,7 @@ public class DesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_des);
 
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
-        TextView textView = (TextView)findViewById(R.id.text_view);
+        //TextView textView = (TextView)findViewById(R.id.text_view);
 
         setSupportActionBar(toolbar);
         if (getIntent() != null) {

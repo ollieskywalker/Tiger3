@@ -1,8 +1,15 @@
-package com.example.eliaschang8.tabsandnavdrawer;
+package com.example.eliaschang8.tabsandnavdrawer.Modler;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.eliaschang8.tabsandnavdrawer.Presenter.Feature;
+import com.example.eliaschang8.tabsandnavdrawer.Presenter.MostPopular;
+import com.example.eliaschang8.tabsandnavdrawer.Presenter.MostRecent;
+import com.example.eliaschang8.tabsandnavdrawer.Presenter.News;
+import com.example.eliaschang8.tabsandnavdrawer.Presenter.Opinion;
+import com.example.eliaschang8.tabsandnavdrawer.Presenter.Sports;
 
 /**
  * Created by eliaschang8 on 4/26/17.

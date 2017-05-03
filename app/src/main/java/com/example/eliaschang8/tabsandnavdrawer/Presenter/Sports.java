@@ -1,4 +1,4 @@
-package com.example.eliaschang8.tabsandnavdrawer;
+package com.example.eliaschang8.tabsandnavdrawer.Presenter;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.eliaschang8.tabsandnavdrawer.R;
 
 /**
  * Created by csaper6 on 4/27/17.

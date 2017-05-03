@@ -1,4 +1,4 @@
-package com.example.eliaschang8.tabsandnavdrawer;
+package com.example.eliaschang8.tabsandnavdrawer.Presenter;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -12,6 +12,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import com.example.eliaschang8.tabsandnavdrawer.R;
+import com.example.eliaschang8.tabsandnavdrawer.Modler.TestScreen;
+import com.example.eliaschang8.tabsandnavdrawer.Modler.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
